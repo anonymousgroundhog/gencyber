@@ -1,0 +1,7 @@
+# RULES FOR SNORT (RUN ADMIN CMD PROMPT) --> be sure to cd Snort\bin
+
+# CHECKING FOR CONFIG ERRORS
+snort -i 2 -c c:\Snort\etc\snort.conf -T
+
+#CHECKING FOR ANY ALERTS
+snort -i 2 -c c:\Snort\etc\snort.conf -A console
